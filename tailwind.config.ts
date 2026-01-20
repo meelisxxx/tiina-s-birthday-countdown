@@ -47,6 +47,9 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        countdown: "hsl(var(--countdown-bg))",
+        "countdown-number": "hsl(var(--countdown-number))",
+        celebration: "hsl(var(--celebration-gold))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
