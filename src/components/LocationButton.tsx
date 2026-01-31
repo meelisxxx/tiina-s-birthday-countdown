@@ -3,8 +3,9 @@ import { Button } from '@/components/ui/button';
 
 const LocationButton = () => {
   const handleClick = () => {
+    // Siin on nüüd uus link, mis avab Google Mapsis Padel+ Klicki
     window.open(
-      'https://www.google.com/maps/search/Kiili+Padel,+Estonia',
+      'https://www.google.com/maps/search/?api=1&query=Padel%2B+Klick%2C+Suur-Paala+19',
       '_blank',
       'noopener,noreferrer'
     );
