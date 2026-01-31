@@ -23,7 +23,7 @@ const Index = () => {
             Tiina sünnipäev! 🎂
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground font-medium">
-            Loeme aega peoni Kiili Padelis:
+            Loeme aega peoni Padel+ Klickis:
           </p>
         </div>
         
@@ -41,7 +41,7 @@ const Index = () => {
           <span className="hidden md:inline text-muted-foreground">|</span>
           <div className="flex items-center gap-2">
             <MapPin className="w-5 h-5 text-primary" />
-            <span className="font-medium">Kiili Padel</span>
+            <span className="font-medium">Padel+ Klick, Suur-Paala 19</span>
           </div>
         </div>
         
