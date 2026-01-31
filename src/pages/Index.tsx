@@ -18,15 +18,16 @@ const Index = () => {
       {/* Main content card */}
       <div className="w-full max-w-2xl bg-card rounded-3xl p-6 md:p-10 card-glow relative z-10">
         
-        {/* --- UUS LISATUD PILT --- */}
+        {/* --- PILT ILMA LÕIKAMATA --- */}
         <div className="mb-8 flex justify-center">
           <img 
             src="/Tiina_pilt.png" 
             alt="Tiina sünnipäev" 
-            className="rounded-2xl shadow-lg w-full max-h-[350px] object-cover border-4 border-white/50"
+            // Siin on muudatus: h-auto tagab, et pilt on täies pikkuses näha
+            className="rounded-2xl shadow-lg w-full h-auto border-4 border-white/50"
           />
         </div>
-        {/* ------------------------ */}
+        {/* --------------------------- */}
 
         {/* Header */}
         <div className="text-center mb-8">
